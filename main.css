@@ -1,23 +1,5 @@
 @font-face {
-  font-family:"BEBASNEUE";
-  src:url('fonts/BebasNeue.otf');
-}
-
-#chat {
-  font-family: 'BEBASNEUE';
-  color: #000;
-  /*text-shadow: -0.3vmin 0 0 rgba(0, 0, 0, 0.8),
-             0.3vmin 0 0 rgba(0, 0, 0, 0.8),
-             0 -0.3vmin 0 rgba(0, 0, 0, 0.8),
-             0 0.3vmin 0 rgba(0, 0, 0, 0.8);*/
-  text-shadow: -0.3px 0 0 rgba(255, 255, 255, 0.8),
-            0.3px 0 0 rgba(255, 255, 255, 0.8),
-            0 -0.3px 0 rgba(255, 255, 255, 0.8),
-            0 0.3px 0 rgba(255, 255, 255, 0.8);
-}
-
-.smth {
-  font-family: 'BEBASNEUE';
+  font-family: "Sawarabi Gothic", sans-serif !important;
 }
 
 #chat {
@@ -33,12 +15,15 @@
     text-align: center;
     will-change: transform;
     opacity: 0;
-	        animation: popup 2.5s ease-in;
-          animation: popup 7s 1 linear;
+    animation: popup 0.1s ease-in;
+    animation: popup 7s 1 linear;
+    font-family: "Sawarabi Gothic", sans-serif !important;
+    color: #EEE;
+    text-shadow: 0px 0px 3px rgb(0,0,0,0.7);
 }
 
 @keyframes popup {
 	0% 		{ transform: translateX(0px) scale(0); opacity: 0; }
-	10% 	{ transform: scale(1); opacity: 1;   }
+	1%  	{ transform: scale(1); opacity: 1; }
 	100%	{ transform: translateX(-2000px); opacity: 1; }
 }
