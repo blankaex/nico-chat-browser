@@ -13,6 +13,5 @@ A twitch chat overlay like comments on the famous website Nico Nico Douga (websi
 Dev by [Kuromachii](http://twitter.com/blackksoulls) for twitch and maybe later other services :p
 
 Here how to setup it for OBS:
-![Setup](setup.gif)
 
 made using [tapic.js](https://github.com/Skhmt/tapic.js/) (Twitch purely JS API) by Skhmt.
