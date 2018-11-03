@@ -1,7 +1,7 @@
 # nico-chat-browser
 A web app that you can use as a browser source with your favourite streaming software to get nico nico style comments. [Original by Kuromachii](https://github.com/Blackksoulls/nico-chat-browser).
 
-I made a fork so that I could run it locally, partially to ease the load on his server but mostly so that I could edit the css. Also partially so that you can do the same without doing all the work I did but mmostly so that I can do the same without having to do all the work I did again when I inevitably lose the files. 
+I made a fork so that I could run it locally, partially to ease the load on his server but mostly so that I could edit the css. Also partially so that you can do the same without doing all the work I did but mostly so that I can do the same without having to do all the work I did again when I inevitably lose the files. 
 
 ## Preview
 
