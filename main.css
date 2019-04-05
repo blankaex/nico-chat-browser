@@ -16,7 +16,7 @@
     will-change: transform;
     opacity: 0;
     animation: popup 0.1s ease-in;
-    animation: popup 8s 1 linear;
+    animation: popup 10s 1 linear;
     font-family: "Commie Sans" !important;
     color: #EEE;
        text-shadow:
