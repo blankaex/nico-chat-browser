@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Sawarabi Gothic", sans-serif !important;
+  font-family: "Commie Sans" !important;
 }
 
 #chat {
@@ -10,20 +10,25 @@
 #chat .popup {
     position: absolute;
     top: 50vh;
-    right: -50px;
+    right: -2560px;
     width: auto;
     text-align: center;
     will-change: transform;
     opacity: 0;
     animation: popup 0.1s ease-in;
-    animation: popup 7s 1 linear;
-    font-family: "Sawarabi Gothic", sans-serif !important;
+    animation: popup 8s 1 linear;
+    font-family: "Commie Sans" !important;
     color: #EEE;
-    text-shadow: 0px 0px 3px rgb(0,0,0,0.7);
+       text-shadow:
+       3px 3px 0 #000,
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+       2px 2px 0 #000;
 }
 
 @keyframes popup {
 	0% 		{ transform: translateX(0px) scale(0); opacity: 0; }
 	1%  	{ transform: scale(1); opacity: 1; }
-	100%	{ transform: translateX(-2000px); opacity: 1; }
+	100%	{ transform: translateX(-5120px); opacity: 1; }
 }
