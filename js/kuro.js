@@ -37,7 +37,7 @@ function generate() {
 function load() {
   var parser = document.createElement('a');
   parser.href = window.location.href;
-  var token = "<insert token here>";
+  var token = "p4dq8j9zm4twsmzka3022qdbi74ng3";
 
   chat(token);
 }
@@ -67,7 +67,7 @@ function writeChat(msg, color) {
     //vertical = 20 + Math.floor((Math.random() * 25) + 0) * Math.round(Math.random()) * 2 - 1; //ver 2
     vertical = Random.integer(15, 85)(engine);
     //size = Math.floor((Math.random() * (70 - 40)) + 40);
-    size = Random.integer(40, 90)(engine);
+    size = Random.integer(40, 80)(engine);
     var rez = $('<div class="popup" style="top:'+ vertical +'vh;font-size:'+ size +'px;">'+ msg +'</div>');
     $('#chat').append(rez);
     setTimeout( function() { rez.remove(); }, 60000);
